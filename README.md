@@ -16,6 +16,7 @@ Idea_1: A Latin-Square type game:
             ,   ,   ,   ,
             m , n , o , p
       
+      A 3X3 grid may be too easy, so 4X4 is probably best.
       
       Potential Issues: Generating arrays automatically, so may have to design arrays manually.
       
