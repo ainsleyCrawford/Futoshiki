@@ -30,3 +30,4 @@ Idea_2: Quiz
 Day_1:
       Much work was done on the user interface. I hardcoded the answer to the puzzle and added a submit button.
       The next step is to allow the user to increment up and down between 1 and 4 using the directional arrows.
+      This is easily accomplished by changing from textboxes to combo-boxes.
