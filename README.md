@@ -27,3 +27,6 @@ Idea_2: Quiz
        Pair quiz example:
             Paramaribo is the capital of [Guyana]/[Azerbaijan]/[Suriname]/[Panama]
             
+Day_1:
+      Much work was done on the user interface. I hardcoded the answer to the puzzle and added a submit button.
+      The next step is to allow the user to increment up and down between 1 and 4 using the directional arrows.
