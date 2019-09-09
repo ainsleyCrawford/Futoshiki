@@ -7,22 +7,22 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="800" Width="800">
     <Grid>
-        <Rectangle x:Name="OneOne" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="100,100,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="TwoOne" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="266.666667,100,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="ThreeOne" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="433.333333,100,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="FourOne" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="600,100,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="OneTwo" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="100,266.666667,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="TwoTwo" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="266.666667,266.666667,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="ThreeTwo" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="433.333333,266.666667,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="FourTwo" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="600,266.666667,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="OneThree" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="100,433.333333,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="TwoThree" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="266.666667,433.333333,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="ThreeThree" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="433.333333,433.333333,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="FourThree" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="600,433.333333,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="OneFour" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="100,600,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="TwoFour" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="266.666667,600,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="ThreeFour" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="433.333333,600,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Rectangle x:Name="FourFour" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Margin="600,600,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="OneOne" HorizontalAlignment="Left" Height="100" Margin="100,100,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="100" FontSize="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="TwoOne" HorizontalAlignment="Left" Height="100" Margin="266.666667,100,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="100" FontSize="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="ThreeOne" HorizontalAlignment="Left" Height="100" Margin="433.333333,100,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="100" FontSize="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="FourOne" HorizontalAlignment="Left" Height="100" Margin="600,100,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="100" FontSize="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="OneTwo" HorizontalAlignment="Left" Height="100" Margin="100,266.666667,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="100" FontSize="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="TwoTwo" HorizontalAlignment="Left" Height="100" Margin="266.666667,266.666667,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="100" FontSize="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="ThreeTwo" HorizontalAlignment="Left" Height="100" Margin="433.333333,266.666667,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="100" FontSize="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="FourTwo" HorizontalAlignment="Left" Height="100" Margin="600,266.666667,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="100" FontSize="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="OneThree" HorizontalAlignment="Left" Height="100" Margin="100,433.333333,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="100" FontSize="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="TwoThree" HorizontalAlignment="Left" Height="100" Margin="266.666667,433.333333,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="100" FontSize="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="ThreeThree" HorizontalAlignment="Left" Height="100" Margin="433.333333,433.333333,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="100" FontSize="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="FourThree" HorizontalAlignment="Left" Height="100" Margin="600,433.333333,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="100" FontSize="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="OneFour" HorizontalAlignment="Left" Height="100" Margin="100,600,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="100" FontSize="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="TwoFour" HorizontalAlignment="Left" Height="100" Margin="266.666667,600,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="100" FontSize="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="ThreeFour" HorizontalAlignment="Left" Height="100" Margin="433.333333,600,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="100" FontSize="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="FourFour" HorizontalAlignment="Left" Height="100" Margin="600,600,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="100" FontSize="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
 
     </Grid>
 </Window>
