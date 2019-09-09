@@ -24,5 +24,10 @@ namespace Futoshiki
         {
             InitializeComponent();
         }
+
+        private void OneTwo_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
