@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Futoshiki"
         mc:Ignorable="d"
         Title="MainWindow" Height="800" Width="800">
-    <Grid>
+    <Grid x:Name="MainGrid">
         <TextBox x:Name="OneOne" HorizontalAlignment="Left" Height="100" Margin="100,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontSize="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" BorderBrush="Black" PreviewTextInput="NumberValidation" MaxLength="1"/>
         <TextBox x:Name="TwoOne" HorizontalAlignment="Left" Height="100" Margin="266.666667,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontSize="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" BorderBrush="Black" PreviewTextInput="NumberValidation" MaxLength="1"/>
         <TextBox x:Name="ThreeOne" HorizontalAlignment="Left" Height="100" Margin="433.333333,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontSize="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" BorderBrush="Black" PreviewTextInput="NumberValidation" MaxLength="1"/>
@@ -23,6 +23,7 @@
         <TextBox x:Name="TwoFour" HorizontalAlignment="Left" Height="100" Margin="266.666667,600,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontSize="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" BorderBrush="Black" PreviewTextInput="NumberValidation" MaxLength="1"/>
         <TextBox x:Name="ThreeFour" HorizontalAlignment="Left" Height="100" Margin="433.333333,600,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontSize="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" BorderBrush="Black" PreviewTextInput="NumberValidation" MaxLength="1"/>
         <TextBox x:Name="FourFour" HorizontalAlignment="Left" Height="100" Margin="600,600,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontSize="75" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" BorderBrush="Black" PreviewTextInput="NumberValidation" MaxLength="1"/>
+        <Button x:Name="Submit_Button" Content="Submit" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top" Width="75" Click="VerifyAnswer"/>
 
     </Grid>
 </Window>
