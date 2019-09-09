@@ -1,0 +1,15 @@
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\bin\Debug\Futoshiki.exe.config
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\bin\Debug\Futoshiki.exe
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\bin\Debug\Futoshiki.pdb
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Futoshiki.csprojAssemblyReference.cache
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\MainWindow.g.cs
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\App.g.cs
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Futoshiki_MarkupCompile.cache
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Futoshiki_MarkupCompile.lref
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\MainWindow.baml
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Futoshiki.g.resources
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Futoshiki.Properties.Resources.resources
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Futoshiki.csproj.GenerateResource.cache
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Futoshiki.csproj.CoreCompileInputs.cache
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Futoshiki.exe
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Futoshiki.pdb
