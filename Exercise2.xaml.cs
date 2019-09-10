@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -11,26 +10,21 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Futoshiki
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Exercise2.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Exercise2 : Window
     {
-        public MainWindow()
+        public Exercise2()
         {
             InitializeComponent();
         }
-        private void NumberValidation(object sender, TextCompositionEventArgs e)
-        {
-            Regex regex = new Regex("[^1-4]");
-            e.Handled = regex.IsMatch(e.Text);
-        }
-        private void VerifyAnswer(object sender, RoutedEventArgs e)
+
+        private void Submit_Button_Click(object sender, RoutedEventArgs e)
         {
             int oneOne = 2, twoOne = 4, threeOne = 1, fourOne = 3;
             int oneTwo = 1, twoTwo = 3, threeTwo = 4, fourTwo = 2;

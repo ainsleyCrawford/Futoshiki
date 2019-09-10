@@ -13,3 +13,5 @@ C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Futoshiki.cspr
 C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Futoshiki.csproj.CoreCompileInputs.cache
 C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Futoshiki.exe
 C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Futoshiki.pdb
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise2.g.cs
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise2.baml
