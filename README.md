@@ -31,3 +31,7 @@ Day_1:
       Much work was done on the user interface. I hardcoded the answer to the puzzle and added a submit button.
       The next step is to allow the user to increment up and down between 1 and 4 using the directional arrows.
       This is easily accomplished by changing from textboxes to combo-boxes.
+Day_2:
+      I firstly changed the textboxes to comboboxes which allowed the design of an improved user interface.
+      I then added additional windows. 10 windows seems a good amount.
+      The next steps are to add 4 more quizes and add inequality symbols.
