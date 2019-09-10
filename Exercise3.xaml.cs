@@ -15,21 +15,21 @@ using System.Windows.Shapes;
 namespace Futoshiki
 {
     /// <summary>
-    /// Interaction logic for Exercise2.xaml
+    /// Interaction logic for Exercise3.xaml
     /// </summary>
-    public partial class Exercise2 : Window
+    public partial class Exercise3 : Window
     {
-        public Exercise2()
+        public Exercise3()
         {
             InitializeComponent();
         }
 
         private void Submit_Button_Click(object sender, RoutedEventArgs e)
         {
-            int oneOne = 3, twoOne = 2, threeOne = 1, fourOne = 4;
-            int oneTwo = 2, twoTwo = 1, threeTwo = 4, fourTwo = 3;
-            int oneThree = 1, twoThree = 4, threeThree = 3, fourThree = 2;
-            int oneFour = 4, twoFour = 3, threeFour = 2, fourFour = 1;
+            int oneOne = 4, twoOne = 1, threeOne = 2, fourOne = 3;
+            int oneTwo = 1, twoTwo = 2, threeTwo = 3, fourTwo = 4;
+            int oneThree = 2, twoThree = 3, threeThree = 4, fourThree = 1;
+            int oneFour = 3, twoFour = 4, threeFour = 1, fourFour = 2;
 
             int oneOneInput, twoOneInput, threeOneInput, fourOneInput;
             int oneTwoInput, twoTwoInput, threeTwoInput, fourTwoInput;
@@ -46,9 +46,9 @@ namespace Futoshiki
                 & oneThreeInput == oneThree & twoThreeInput == twoThree & threeThreeInput == threeThree & fourThreeInput == fourThree
                 & oneFourInput == oneFour & twoFourInput == twoFour & threeFourInput == threeFour & fourFourInput == fourFour)
             {
-                MessageBox.Show("Well done!");
-                Exercise3 exercise3 = new Exercise3();
-                exercise3.Show();
+                MessageBox.Show("You're getting good at this. Keep up the momentum.");
+                Exercise4 exercise4 = new Exercise4();
+                exercise4.Show();
                 this.Close();
             }
             else

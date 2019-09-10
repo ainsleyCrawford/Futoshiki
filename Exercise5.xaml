@@ -1,0 +1,125 @@
+﻿<Window x:Class="Futoshiki.Exercise5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Futoshiki"
+        mc:Ignorable="d"
+        Title="Exercise5" Height="800" Width="800">
+    <Grid>
+        <ComboBox x:Name="OneOne" HorizontalAlignment="Left" Margin="100,100,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <ComboBoxItem x:Name="First11" Content="1" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Second11" Content="2" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Third11" Content="3" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Fourth11" Content="4" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Empty11" Content="" HorizontalAlignment="Left" Width="100"/>
+        </ComboBox>
+        <ComboBox x:Name="TwoOne" HorizontalAlignment="Left" Margin="266.666667,100,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <ComboBoxItem x:Name="First21" Content="1" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Second21" Content="2" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Third21" Content="3" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Fourth21" Content="4" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Empty21" Content="" HorizontalAlignment="Left" Width="100"/>
+        </ComboBox>
+        <ComboBox x:Name="ThreeOne" HorizontalAlignment="Left" Margin="433.333333,100,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <ComboBoxItem x:Name="First31" Content="1" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Second31" Content="2" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Third31" Content="3" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Fourth31" Content="4" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Empty31" Content="" HorizontalAlignment="Left" Width="100"/>
+        </ComboBox>
+        <ComboBox x:Name="FourOne" HorizontalAlignment="Left" Margin="600,100,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <ComboBoxItem x:Name="First41" Content="1" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Second41" Content="2" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Third41" Content="3" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Fourth41" Content="4" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Empty41" Content="" HorizontalAlignment="Left" Width="100"/>
+        </ComboBox>
+        <ComboBox x:Name="OneTwo" HorizontalAlignment="Left" Margin="100,266.666667,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <ComboBoxItem x:Name="First12" Content="1" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Second12" Content="2" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Third12" Content="3" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Fourth12" Content="4" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Empty12" Content="" HorizontalAlignment="Left" Width="100"/>
+        </ComboBox>
+        <ComboBox x:Name="TwoTwo" HorizontalAlignment="Left" Margin="266.666667,266.666667,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <ComboBoxItem x:Name="First22" Content="1" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Second22" Content="2" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Third22" Content="3" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Fourth22" Content="4" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Empty22" Content="" HorizontalAlignment="Left" Width="100"/>
+        </ComboBox>
+        <ComboBox x:Name="ThreeTwo" HorizontalAlignment="Left" Margin="433.333333,266.666667,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <ComboBoxItem x:Name="First32" Content="1" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Second32" Content="2" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Third32" Content="3" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Fourth32" Content="4" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Empty32" Content="" HorizontalAlignment="Left" Width="100"/>
+        </ComboBox>
+        <ComboBox x:Name="FourTwo" HorizontalAlignment="Left" Margin="600,266.666667,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <ComboBoxItem x:Name="First42" Content="1" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Second42" Content="2" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Third42" Content="3" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Fourth42" Content="4" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Empty42" Content="" HorizontalAlignment="Left" Width="100"/>
+        </ComboBox>
+        <ComboBox x:Name="OneThree" HorizontalAlignment="Left" Margin="100,433.333333,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <ComboBoxItem x:Name="First13" Content="1" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Second13" Content="2" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Third13" Content="3" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Fourth13" Content="4" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Empty13" Content="" HorizontalAlignment="Left" Width="100"/>
+        </ComboBox>
+        <ComboBox x:Name="TwoThree" HorizontalAlignment="Left" Margin="266.666667,433.333333,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <ComboBoxItem x:Name="First23" Content="1" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Second23" Content="2" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Third23" Content="3" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Fourth23" Content="4" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Empty23" Content="" HorizontalAlignment="Left" Width="100"/>
+        </ComboBox>
+        <ComboBox x:Name="ThreeThree" HorizontalAlignment="Left" Margin="433.333333,433.333333,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <ComboBoxItem x:Name="First33" Content="1" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Second33" Content="2" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Third33" Content="3" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Fourth33" Content="4" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Empty33" Content="" HorizontalAlignment="Left" Width="100"/>
+        </ComboBox>
+        <ComboBox x:Name="FourThree" HorizontalAlignment="Left" Margin="600,433.333333,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <ComboBoxItem x:Name="First43" Content="1" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Second43" Content="2" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Third43" Content="3" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Fourth43" Content="4" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Empty43" Content="" HorizontalAlignment="Left" Width="100"/>
+        </ComboBox>
+        <ComboBox x:Name="OneFour" HorizontalAlignment="Left" Margin="100,600,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <ComboBoxItem x:Name="First14" Content="1" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Second14" Content="2" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Third14" Content="3" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Fourth14" Content="4" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Empty14" Content="" HorizontalAlignment="Left" Width="100"/>
+        </ComboBox>
+        <ComboBox x:Name="TwoFour" HorizontalAlignment="Left" Margin="266.666667,600,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <ComboBoxItem x:Name="First24" Content="1" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Second24" Content="2" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Third24" Content="3" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Fourth24" Content="4" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Empty24" Content="" HorizontalAlignment="Left" Width="100"/>
+        </ComboBox>
+        <ComboBox x:Name="ThreeFour" HorizontalAlignment="Left" Margin="433.333333,600,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <ComboBoxItem x:Name="First34" Content="1" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Second34" Content="2" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Third34" Content="3" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Fourth34" Content="4" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Empty34" Content="" HorizontalAlignment="Left" Width="100"/>
+        </ComboBox>
+        <ComboBox x:Name="FourFour" HorizontalAlignment="Left" Margin="600,600,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
+            <ComboBoxItem x:Name="First44" Content="1" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Second44" Content="2" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Third44" Content="3" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Fourth44" Content="4" HorizontalAlignment="Left" Width="100"/>
+            <ComboBoxItem x:Name="Empty44" Content="" HorizontalAlignment="Left" Width="100"/>
+        </ComboBox>
+
+        <Button x:Name="Submit_Button" Content="Submit" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top" Width="75" Click="Submit_Button_Click"/>
+    </Grid>
+</Window>

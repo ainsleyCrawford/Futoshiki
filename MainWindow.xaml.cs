@@ -52,7 +52,7 @@ namespace Futoshiki
                 & oneThreeInput == oneThree & twoThreeInput == twoThree & threeThreeInput == threeThree & fourThreeInput == fourThree
                 & oneFourInput == oneFour & twoFourInput == twoFour & threeFourInput == threeFour & fourFourInput == fourFour)
             {
-                MessageBox.Show("Congratulations!");
+                MessageBox.Show("Success! \nLet's try another");
                 Exercise2 exercise2 = new Exercise2();
                 exercise2.Show();
                 this.Close();
