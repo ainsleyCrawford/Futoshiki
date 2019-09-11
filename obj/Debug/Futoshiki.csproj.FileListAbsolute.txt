@@ -31,3 +31,5 @@ C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise7.baml
 C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise8.baml
 C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise9.baml
 C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\FinalExercise.baml
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise1.g.cs
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise1.baml

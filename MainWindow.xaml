@@ -5,139 +5,97 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Futoshiki"
         mc:Ignorable="d"
-        Title="MainWindow" Height="800" Width="800">
+        Title="MainWindow" Height="800" Width="1600">
     <Grid x:Name="MainGrid">
-        <ComboBox x:Name="OneOne" HorizontalAlignment="Left" Margin="100,100,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
-            <ComboBoxItem x:Name="First11" Content="1" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Second11" Content="2" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Third11" Content="3" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Fourth11" Content="4" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Empty11" Content="" HorizontalAlignment="Left" Width="100"/>
-        </ComboBox>
-        <ComboBox x:Name="TwoOne" HorizontalAlignment="Left" Margin="266.666667,100,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
-            <ComboBoxItem x:Name="First21" Content="1" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Second21" Content="2" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Third21" Content="3" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Fourth21" Content="4" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Empty21" Content="" HorizontalAlignment="Left" Width="100"/>
-        </ComboBox>
-        <ComboBox x:Name="ThreeOne" HorizontalAlignment="Left" Margin="433.333333,100,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
-            <ComboBoxItem x:Name="First31" Content="1" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Second31" Content="2" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Third31" Content="3" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Fourth31" Content="4" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Empty31" Content="" HorizontalAlignment="Left" Width="100"/>
-        </ComboBox>
-        <ComboBox x:Name="FourOne" HorizontalAlignment="Left" Margin="600,100,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
-            <ComboBoxItem x:Name="First41" Content="1" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Second41" Content="2" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Third41" Content="3" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Fourth41" Content="4" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Empty41" Content="" HorizontalAlignment="Left" Width="100"/>
-        </ComboBox>
-        <ComboBox x:Name="OneTwo" HorizontalAlignment="Left" Margin="100,266.666667,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
-            <ComboBoxItem x:Name="First12" Content="1" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Second12" Content="2" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Third12" Content="3" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Fourth12" Content="4" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Empty12" Content="" HorizontalAlignment="Left" Width="100"/>
-        </ComboBox>
-        <ComboBox x:Name="TwoTwo" HorizontalAlignment="Left" Margin="266.666667,266.666667,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
-            <ComboBoxItem x:Name="First22" Content="1" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Second22" Content="2" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Third22" Content="3" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Fourth22" Content="4" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Empty22" Content="" HorizontalAlignment="Left" Width="100"/>
-        </ComboBox>
-        <ComboBox x:Name="ThreeTwo" HorizontalAlignment="Left" Margin="433.333333,266.666667,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
-            <ComboBoxItem x:Name="First32" Content="1" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Second32" Content="2" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Third32" Content="3" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Fourth32" Content="4" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Empty32" Content="" HorizontalAlignment="Left" Width="100"/>
-        </ComboBox>
-        <ComboBox x:Name="FourTwo" HorizontalAlignment="Left" Margin="600,266.666667,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
-            <ComboBoxItem x:Name="First42" Content="1" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Second42" Content="2" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Third42" Content="3" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Fourth42" Content="4" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Empty42" Content="" HorizontalAlignment="Left" Width="100"/>
-        </ComboBox>
-        <ComboBox x:Name="OneThree" HorizontalAlignment="Left" Margin="100,433.333333,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
-            <ComboBoxItem x:Name="First13" Content="1" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Second13" Content="2" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Third13" Content="3" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Fourth13" Content="4" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Empty13" Content="" HorizontalAlignment="Left" Width="100"/>
-        </ComboBox>
-        <ComboBox x:Name="TwoThree" HorizontalAlignment="Left" Margin="266.666667,433.333333,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
-            <ComboBoxItem x:Name="First23" Content="1" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Second23" Content="2" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Third23" Content="3" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Fourth23" Content="4" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Empty23" Content="" HorizontalAlignment="Left" Width="100"/>
-        </ComboBox>
-        <ComboBox x:Name="ThreeThree" HorizontalAlignment="Left" Margin="433.333333,433.333333,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
-            <ComboBoxItem x:Name="First33" Content="1" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Second33" Content="2" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Third33" Content="3" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Fourth33" Content="4" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Empty33" Content="" HorizontalAlignment="Left" Width="100"/>
-        </ComboBox>
-        <ComboBox x:Name="FourThree" HorizontalAlignment="Left" Margin="600,433.333333,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
-            <ComboBoxItem x:Name="First43" Content="1" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Second43" Content="2" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Third43" Content="3" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Fourth43" Content="4" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Empty43" Content="" HorizontalAlignment="Left" Width="100"/>
-        </ComboBox>
-        <ComboBox x:Name="OneFour" HorizontalAlignment="Left" Margin="100,600,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
-            <ComboBoxItem x:Name="First14" Content="1" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Second14" Content="2" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Third14" Content="3" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Fourth14" Content="4" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Empty14" Content="" HorizontalAlignment="Left" Width="100"/>
-        </ComboBox>
-        <ComboBox x:Name="TwoFour" HorizontalAlignment="Left" Margin="266.666667,600,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
-            <ComboBoxItem x:Name="First24" Content="1" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Second24" Content="2" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Third24" Content="3" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Fourth24" Content="4" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Empty24" Content="" HorizontalAlignment="Left" Width="100"/>
-        </ComboBox>
-        <ComboBox x:Name="ThreeFour" HorizontalAlignment="Left" Margin="433.333333,600,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
-            <ComboBoxItem x:Name="First34" Content="1" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Second34" Content="2" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Third34" Content="3" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Fourth34" Content="4" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Empty34" Content="" HorizontalAlignment="Left" Width="100"/>
-        </ComboBox>
-        <ComboBox x:Name="FourFour" HorizontalAlignment="Left" Margin="600,600,0,0" VerticalAlignment="Top" Width="100" FontSize="75" Height="100" MaxDropDownHeight="0" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
-            <ComboBoxItem x:Name="First44" Content="1" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Second44" Content="2" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Third44" Content="3" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Fourth44" Content="4" HorizontalAlignment="Left" Width="100"/>
-            <ComboBoxItem x:Name="Empty44" Content="" HorizontalAlignment="Left" Width="100"/>
-        </ComboBox>
+        <Label Content="Welcome to Ainsley's Collection" HorizontalAlignment="Center" Margin="16,0,15.6,684.4" FontSize="55" FontStyle="Italic"/>
+        <Label Content="of Futoshiki Challenges" HorizontalAlignment="Center" Margin="118,60,117.6,616.4" FontSize="55" FontStyle="Italic"/>
+        <RichTextBox HorizontalAlignment="Left" Height="564" Margin="50,160,0,0" VerticalAlignment="Top" Width="1000" FontSize="35" TextChanged="RichTextBox_TextChanged">
+            <FlowDocument>
+                <List MarkerStyle="LowerRoman" MarkerOffset="1">
+                    <ListItem>
+                        <Paragraph>
+                            <Run Text=" Futoshiki is a Japanese puzzle game which may be translated as 'unequal'."/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Run Text=" The aim of the game is to complete "/>
+                            <Run Text="a given"/>
+                            <Run Text=" Latin square"/>
+                            <Run Text=":"/>
+                            <Run Text=" "/>
+                            <Run Text="an"/>
+                            <Run Text=" "/>
+                            <Run FontStyle="Italic" Text="n "/>
+                            <Run Text="by "/>
+                            <Run FontStyle="Italic" Text="n"/>
+                            <Run Text=" grid "/>
+                            <Run Text="in which"/>
+                            <Run Text=" each symbol occurs once in each row and column."/>
+                            <Run Text=" "/>
+                            <Run Text=" "/>
+                            <Run Text=" "/>
+                            <Run Text=" "/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Run Text=" Rather than displaying numbers—as in sudoku—futoshiki uses inequality symbols to give the player enough information to deduce the solution."/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Run Text=" This application contains ten challenge"/>
+                            <Run Text="s."/>
+                        </Paragraph>
+                    </ListItem>
+                </List>
+            </FlowDocument>
+        </RichTextBox>
+        <RichTextBox HorizontalAlignment="Left" Height="400" Margin="1050,160,0,0" VerticalAlignment="Top" Width="430" TextChanged="RichTextBox_TextChanged" FontSize="30">
+            <FlowDocument>
+                <Paragraph TextAlignment="Center">
+                    <Run FontSize="35" Text="Latin square example:"/>
+                </Paragraph>
+                <Paragraph TextIndent="20">
+                    <Run FontWeight="Bold" Text="α"/>
+                    <Run FontWeight="Bold" Text="&#x9;"/>
+                    <Run FontWeight="Bold" Text="β"/>
+                    <Run FontWeight="Bold" Text="&#x9;"/>
+                    <Run FontWeight="Bold" Text="γ"/>
+                    <Run FontWeight="Bold" Text="&#x9;"/>
+                    <Run FontWeight="Bold" Text="δ"/>
+                </Paragraph>
+                <Paragraph TextIndent="20">
+                    <Run FontWeight="Bold" Text="δ"/>
+                    <Run FontWeight="Bold" Text="&#x9;"/>
+                    <Run FontWeight="Bold" Text="γ"/>
+                    <Run FontWeight="Bold" Text="&#x9;"/>
+                    <Run FontWeight="Bold" Text="α"/>
+                    <Run FontWeight="Bold" Text="&#x9;"/>
+                    <Run FontWeight="Bold" Text="β"/>
+                </Paragraph>
+                <Paragraph TextIndent="20">
+                    <Run FontWeight="Bold" Text="β"/>
+                    <Run FontWeight="Bold" Text="&#x9;"/>
+                    <Run FontWeight="Bold" Text="α"/>
+                    <Run FontWeight="Bold" Text="&#x9;"/>
+                    <Run FontWeight="Bold" Text="δ"/>
+                    <Run FontWeight="Bold" Text="&#x9;"/>
+                    <Run FontWeight="Bold" Text="γ"/>
+                </Paragraph>
+                <Paragraph TextIndent="20">
+                    <Run FontWeight="Bold" Text="γ"/>
+                    <Run FontWeight="Bold" Text="&#x9;"/>
+                    <Run FontWeight="Bold" Text="δ"/>
+                    <Run FontWeight="Bold" Text="&#x9;"/>
+                    <Run FontWeight="Bold" Text="β"/>
+                    <Run FontWeight="Bold" Text="&#x9;"/>
+                    <Run FontWeight="Bold" Text="α"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Button Content="Begin" HorizontalAlignment="Left" Margin="1125,650,0,0" VerticalAlignment="Top" Width="275" FontSize="40" Click="Button_Click"/>
 
-        <Button x:Name="Submit_Button" Content="Submit First Puzzle" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top" Width="120" Click="VerifyAnswer"/>
-        <Label Content="&lt;" HorizontalAlignment="Left" Margin="367,420,0,0" VerticalAlignment="Top" FontSize="75" Height="100" Width="66" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-        <Label Content="&lt;" HorizontalAlignment="Left" Margin="435,352,0,0" VerticalAlignment="Top" FontSize="75" Height="100" Width="66" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" RenderTransformOrigin="-0.344,0.559">
-            <Label.RenderTransform>
-                <TransformGroup>
-                    <RotateTransform Angle="270"/>
-                    <TranslateTransform X="61.604" Y="49.804"/>
-                </TransformGroup>
-            </Label.RenderTransform>
-        </Label>
-        <Label Content="&gt;" HorizontalAlignment="Left" Margin="533,420,0,0" VerticalAlignment="Top" FontSize="75" Height="100" Width="66" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-        <Label Content="&lt;" HorizontalAlignment="Left" Margin="270,520,0,0" VerticalAlignment="Top" FontSize="75" Height="100" Width="66" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" RenderTransformOrigin="-0.344,0.559">
-            <Label.RenderTransform>
-                <TransformGroup>
-                    <RotateTransform Angle="270"/>
-                    <TranslateTransform X="61.604" Y="49.804"/>
-                </TransformGroup>
-            </Label.RenderTransform>
-        </Label>
     </Grid>
 </Window>
