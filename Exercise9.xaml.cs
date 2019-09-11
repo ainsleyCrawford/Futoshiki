@@ -15,21 +15,21 @@ using System.Windows.Shapes;
 namespace Futoshiki
 {
     /// <summary>
-    /// Interaction logic for Exercise6.xaml
+    /// Interaction logic for Exercise9.xaml
     /// </summary>
-    public partial class Exercise6 : Window
+    public partial class Exercise9 : Window
     {
-        public Exercise6()
+        public Exercise9()
         {
             InitializeComponent();
         }
 
         private void Submit_Button_Click(object sender, RoutedEventArgs e)
         {
-            int oneOne = 1, twoOne = 2, threeOne = 4, fourOne = 3;
-            int oneTwo = 4, twoTwo = 3, threeTwo = 2, fourTwo = 1;
-            int oneThree = 3, twoThree = 4, threeThree = 1, fourThree = 2;
-            int oneFour = 2, twoFour = 1, threeFour = 3, fourFour = 4;
+            int oneOne = 2, twoOne = 1, threeOne = 4, fourOne = 3;
+            int oneTwo = 3, twoTwo = 4, threeTwo = 1, fourTwo = 2;
+            int oneThree = 4, twoThree = 2, threeThree = 3, fourThree = 1;
+            int oneFour = 1, twoFour = 3, threeFour = 2, fourFour = 4;
 
             int oneOneInput, twoOneInput, threeOneInput, fourOneInput;
             int oneTwoInput, twoTwoInput, threeTwoInput, fourTwoInput;
@@ -46,9 +46,9 @@ namespace Futoshiki
                 & oneThreeInput == oneThree & twoThreeInput == twoThree & threeThreeInput == threeThree & fourThreeInput == fourThree
                 & oneFourInput == oneFour & twoFourInput == twoFour & threeFourInput == threeFour & fourFourInput == fourFour)
             {
-                MessageBox.Show("Congratulations! Now for a real challenge....");
-                Exercise7 exercise7 = new Exercise7();
-                exercise7.Show();
+                MessageBox.Show("Only one puzzle left.");
+                FinalExercise final = new FinalExercise();
+                final.Show();
                 this.Close();
             }
             else

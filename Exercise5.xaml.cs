@@ -27,8 +27,8 @@ namespace Futoshiki
         private void Submit_Button_Click(object sender, RoutedEventArgs e)
         {
             int oneOne = 4, twoOne = 3, threeOne = 2, fourOne = 1;
-            int oneTwo = 1, twoTwo = 2, threeTwo = 3, fourTwo = 4;
-            int oneThree = 2, twoThree = 3, threeThree = 4, fourThree = 1;
+            int oneTwo = 1, twoTwo = 2, threeTwo = 4, fourTwo = 3;
+            int oneThree = 2, twoThree = 1, threeThree = 3, fourThree = 4;
             int oneFour = 3, twoFour = 4, threeFour = 1, fourFour = 2;
 
             int oneOneInput, twoOneInput, threeOneInput, fourOneInput;

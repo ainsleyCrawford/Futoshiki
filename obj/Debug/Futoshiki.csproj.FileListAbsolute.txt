@@ -17,3 +17,17 @@ C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise2.g.cs
 C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise2.baml
 C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise3.g.cs
 C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise3.baml
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise4.g.cs
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise5.g.cs
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise6.g.cs
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise7.g.cs
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise8.g.cs
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise9.g.cs
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\FinalExercise.g.cs
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise4.baml
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise5.baml
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise6.baml
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise7.baml
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise8.baml
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\Exercise9.baml
+C:\Users\Ainsley Crawford\Engineering40\Week5\Futoshiki\obj\Debug\FinalExercise.baml
