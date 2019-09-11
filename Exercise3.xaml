@@ -120,6 +120,28 @@
             <ComboBoxItem x:Name="Empty44" Content="" HorizontalAlignment="Left" Width="100"/>
         </ComboBox>
 
-        <Button x:Name="Submit_Button" Content="Submit" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top" Width="75" Click="Submit_Button_Click"/>
+        <Button x:Name="Submit_Button" Content="Submit Third Puzzle" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top" Width="120" Click="Submit_Button_Click"/>
+        <Label Content="&lt;" HorizontalAlignment="Left" Margin="180,460,0,0" VerticalAlignment="Top" FontSize="75" Height="100" Width="66" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" RenderTransformOrigin="-0.344,0.559">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="90"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="&lt;" HorizontalAlignment="Left" Margin="350,460,0,0" VerticalAlignment="Top" FontSize="75" Height="100" Width="66" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" RenderTransformOrigin="-0.344,0.559">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="90"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="&lt;" HorizontalAlignment="Left" Margin="685,460,0,0" VerticalAlignment="Top" FontSize="75" Height="100" Width="66" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" RenderTransformOrigin="-0.344,0.559">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="90"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="&lt;" HorizontalAlignment="Left" Margin="200,585,0,0" VerticalAlignment="Top" FontSize="75" Height="100" Width="66" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
     </Grid>
 </Window>

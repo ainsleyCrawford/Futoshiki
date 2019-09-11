@@ -120,6 +120,24 @@
             <ComboBoxItem x:Name="Empty44" Content="" HorizontalAlignment="Left" Width="100"/>
         </ComboBox>
 
-        <Button x:Name="Submit_Button" Content="Submit" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top" Width="75" Click="Submit_Button_Click"/>
+        <Button x:Name="Submit_Button" Content="Submit Second Puzzle" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top" Width="130" Click="Submit_Button_Click"/>
+        <Label Content="&gt;" HorizontalAlignment="Left" Margin="366,420,0,0" VerticalAlignment="Top" FontSize="75" Height="100" Width="66" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label Content="&gt;" HorizontalAlignment="Left" Margin="533,585,0,0" VerticalAlignment="Top" FontSize="75" Height="100" Width="66" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label Content="&lt;" HorizontalAlignment="Left" Margin="440,520,0,0" VerticalAlignment="Top" FontSize="75" Height="100" Width="66" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" RenderTransformOrigin="-0.344,0.559">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="270"/>
+                    <TranslateTransform X="61.604" Y="49.804"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="&lt;" HorizontalAlignment="Left" Margin="455,70,0,0" VerticalAlignment="Top" FontSize="75" Height="100" Width="66" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" RenderTransformOrigin="-0.344,0.559">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform X="61.604" Y="49.804"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>        
     </Grid>
 </Window>

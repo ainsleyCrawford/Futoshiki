@@ -120,7 +120,24 @@
             <ComboBoxItem x:Name="Empty44" Content="" HorizontalAlignment="Left" Width="100"/>
         </ComboBox>
 
-        <Button x:Name="Submit_Button" Content="Submit" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top" Width="75" Click="VerifyAnswer"/>
-
+        <Button x:Name="Submit_Button" Content="Submit First Puzzle" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top" Width="120" Click="VerifyAnswer"/>
+        <Label Content="&lt;" HorizontalAlignment="Left" Margin="367,420,0,0" VerticalAlignment="Top" FontSize="75" Height="100" Width="66" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label Content="&lt;" HorizontalAlignment="Left" Margin="435,352,0,0" VerticalAlignment="Top" FontSize="75" Height="100" Width="66" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" RenderTransformOrigin="-0.344,0.559">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="270"/>
+                    <TranslateTransform X="61.604" Y="49.804"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="&gt;" HorizontalAlignment="Left" Margin="533,420,0,0" VerticalAlignment="Top" FontSize="75" Height="100" Width="66" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label Content="&lt;" HorizontalAlignment="Left" Margin="270,520,0,0" VerticalAlignment="Top" FontSize="75" Height="100" Width="66" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" RenderTransformOrigin="-0.344,0.559">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform Angle="270"/>
+                    <TranslateTransform X="61.604" Y="49.804"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
     </Grid>
 </Window>
