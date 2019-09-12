@@ -42,3 +42,16 @@ Day_3:
       The cs file for each of the last 10 windows is similar: an intitialisation of the puzzle solution, a declaration of each combobox
       followed by intialisation by parsing user input, and an if statement that verifies that the user input matches the correct answer
       in every combobox. The latter was efficiently achieved by concatenating the if statement of each combobox using the & operator.
+      Should the user not input the correct integer in every combox, the message-box "Wrong answer. Keep Trying" appears. The latter
+      sentence has the aim of stopping the user becoming discouraged.
+      The correct solution generates a message of congratulation such as "Success! Let's try another". Closing this message box opens
+      the next exercise.
+To improve:
+      The major issue is that clicking the submit button whilst any of the comboxes are void causes the program to crash.
+      This occurs because user_input is in an incorrect format as there wasn't any text to parse and convert to an integer.
+            One possible solution is to add a 0-option to the comboxes which can't be seen. This would result in the user_input holding
+            the value 0, rather than null.
+            Another solution could involve ah enveloping if statemeent that is satisfied if every combox is filled.
+      More general improvements to the application include more aesthetically pleasing windows.
+      Additionally, usability may be ameliorated by allowing the user to toggle left and right between comboxes with the left and right
+      keyboard directional buttons.
