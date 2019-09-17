@@ -26,6 +26,7 @@ namespace Futoshiki
 
         private void Submit_Button_Click(object sender, RoutedEventArgs e)
         {
+            try
             {
                 int oneOne = 2, twoOne = 4, threeOne = 1, fourOne = 3;
                 int oneTwo = 1, twoTwo = 3, threeTwo = 4, fourTwo = 2;
@@ -56,6 +57,10 @@ namespace Futoshiki
                 {
                     MessageBox.Show("Wrong answer. Keep trying!");
                 }
+            }
+            catch (System.FormatException)
+            {
+                MessageBox.Show("You have not filled in all the boxes.");
             }
         }
     }
