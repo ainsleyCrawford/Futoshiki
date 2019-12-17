@@ -16,22 +16,38 @@
                         <Paragraph>
                             <Run Text=" Futoshiki is a Japanese puzzle game which may be translated as 'unequal'."/>
                         </Paragraph>
+                        <Paragraph>
+                            <Run/>
+                        </Paragraph>
                     </ListItem>
                     <ListItem>
                         <Paragraph>
-                            <Run Text=" The aim of the game is to complete "/>
-                            <Run Text="a given"/>
-                            <Run Text=" Latin square"/>
-                            <Run Text=":"/>
-                            <Run Text=" "/>
-                            <Run Text="an"/>
+                            <Run Text=" The aim of the game is to complete a given"/>
+                            <Run Text=" Latin square:"/>
+                            <Run Text=" an"/>
                             <Run Text=" "/>
                             <Run FontStyle="Italic" Text="n "/>
                             <Run Text="by "/>
                             <Run FontStyle="Italic" Text="n"/>
-                            <Run Text=" grid "/>
+                            <Run Text=" grid"/>
+                            <Run Text=" "/>
                             <Run Text="in which"/>
                             <Run Text=" each symbol occurs once in each row and column."/>
+                        </Paragraph>
+                        <Paragraph>
+                            <Run/>
+                            <Run Text=" "/>
+                            <Run Text=" "/>
+                            <Run Text=" "/>
+                            <Run Text=" "/>
+                            <Run Text=" "/>
+                            <Run Text=" "/>
+                            <Run Text=" "/>
+                            <Run Text=" "/>
+                            <Run Text=" "/>
+                            <Run Text=" "/>
+                            <Run Text=" "/>
+                            <Run Text=" "/>
                             <Run Text=" "/>
                             <Run Text=" "/>
                             <Run Text=" "/>
@@ -42,11 +58,13 @@
                         <Paragraph>
                             <Run Text=" Rather than displaying numbers—as in sudoku—futoshiki uses inequality symbols to give the player enough information to deduce the solution."/>
                         </Paragraph>
+                        <Paragraph>
+                            <Run/>
+                        </Paragraph>
                     </ListItem>
                     <ListItem>
                         <Paragraph>
-                            <Run Text=" This application contains ten challenge"/>
-                            <Run Text="s."/>
+                            <Run Text=" This application contains ten challenges."/>
                         </Paragraph>
                     </ListItem>
                 </List>
@@ -95,7 +113,7 @@
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <Button Content="Begin" HorizontalAlignment="Left" Margin="1125,650,0,0" VerticalAlignment="Top" Width="275" FontSize="40" Click="Button_Click"/>
+        <Button Content="Begin" HorizontalAlignment="Left" Margin="1125,625,0,0" VerticalAlignment="Top" Width="275" FontSize="40" Click="Button_Click"/>
 
     </Grid>
 </Window>
