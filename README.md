@@ -1,4 +1,5 @@
 # Futoshiki
+Description: The aim of this project is to create a desktop app using Windows Presentation Foundation (WPF)
 Idea_1: A Latin-Square type game:
       A latin square has n rows and n columns, and each symbol may occur only once in each.
       Latin Square example:
