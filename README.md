@@ -77,6 +77,6 @@ The high-risk defect decribed above, of empty comboboxes leading to failure, was
 ![Page7](https://user-images.githubusercontent.com/54633579/71072767-1081fa80-2177-11ea-8aa5-17be99bfccad.png)
 ![Page8](https://user-images.githubusercontent.com/54633579/71072793-1a0b6280-2177-11ea-9fe6-abe876ca2816.png)
 ![Page9](https://user-images.githubusercontent.com/54633579/71072805-21327080-2177-11ea-963d-9ab41415b5ab.png)
-![Page10](https://user-images.githubusercontent.com/54633579/71072826-2a234200-2177-11ea-963b-2d223a4d3658.png)
+![Page10cropped](https://user-images.githubusercontent.com/54633579/71082295-c0139880-2188-11ea-8fdb-aaed229345dc.png)
 
-*Figure 4: Correct answers to all challenges.*
+*Figure 4: Correct answers to all puzzles.*
