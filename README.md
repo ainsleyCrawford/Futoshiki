@@ -14,7 +14,7 @@ Description: The aim of this project is to create a desktop app using Windows Pr
             
             D     B     A     C     
             
-      Futoshiki (https://www.futoshiki.org/), aka Unequal, is the inspiration for this idea.
+      Futoshiki ([text]https://www.futoshiki.org/), aka Unequal, is the inspiration for this idea.
       It uses inequality symbols to give the player enough info to deduce the solution.
       
             a  >  b  ,  c  <  d
