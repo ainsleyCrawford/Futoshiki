@@ -1,6 +1,9 @@
 # Futoshiki
 Description: The aim of this project is to create a desktop application using Windows Presentation Foundation (WPF).
 
+![WelcomePage](https://user-images.githubusercontent.com/54633579/71023097-f0602600-20f9-11ea-97b0-ae21fd2e9b7e.png)
+*Figure 1: The opening page welcomes the user and summarises futoshiki.*
+
 ### Idea Generation: A Latin-Square type game:
 A latin square has n rows and n columns, and each symbol may occur only once in each.
 Latin Square example:  
@@ -38,8 +41,7 @@ I firstly changed the textboxes to comboboxes which allowed the design of an imp
       
 ### Log 3:
 The application now has 11 windows: a start window, which describes futoshiki, and 10 consecutive puzzles. A clickable button progresses the user from start page to the first puzzle by creating, and showing (.Show()), an object of the required WPF window; simultaneously, the command this.Close() causes the opening window to close. The cs file for each of the last 10 windows is similar: an intitialisation of the puzzle solution, a declaration of each combobox followed by intialisation by parsing user input, and an if statement that verifies that the user-input matches the correct answer in every combobox. The latter was efficiently achieved by concatenating the if statement of each combobox using the & operator.
-![WelcomePage](https://user-images.githubusercontent.com/54633579/71023097-f0602600-20f9-11ea-97b0-ae21fd2e9b7e.png)
-*Figure 1: The opening page welcomes the user and explains the application.*
+
       
 Should the user not input the correct integer in every combox, the message-box "Wrong answer. Keep Trying" appears. The latter sentence has the aim of stopping the user becoming discouraged. The correct solution generates a message of congratulation such as "Success! Let's try another". Closing this message box opens the next exercise.
 ![WrongAnswer](https://user-images.githubusercontent.com/54633579/71023368-7f6d3e00-20fa-11ea-9123-549597975148.png)
