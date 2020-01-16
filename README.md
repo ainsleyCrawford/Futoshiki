@@ -12,22 +12,17 @@ C . A . B . D<br>
 B . C . D . A<br>  
 D . B . A . C</p>     
             
- [Futoshiki](https://www.futoshiki.org), aka Unequal, is the inspiration for this idea.
-      It uses inequality symbols to give the player enough info to deduce the solution.
+[Futoshiki](https://www.futoshiki.org), aka Unequal, is the inspiration for this idea.
+It uses inequality symbols to give the player enough info to deduce the solution.
+For instance, in a 3-by-3 latin square if _ > _ then the left-hand side cannot be 1 and the right-hand side cannot be 3. Now suppose you had already proved a 2 or a 3 in the same column as the left-hand space. You could, then, logically conclude this space's value.   
       
-            a  >  b  ,  c  <  d
-            
-            ^     ,     ,     ,
-            
-            e  ,  f  ,  g  ,  h
-            
-            ,     ,     ^     ,
-            
-            i  ,  j  ,  k  <  l
-            
-            ,     ,     ,     ,
-            
-            m  ,  n  ,  o  ,  p
+a  >  b  ,  c  <  d
+^     ,     ,     ,
+e  ,  f  ,  g  ,  h
+,     ,     ^     ,
+i  ,  j  ,  k  <  l
+,     ,     ,     ,
+m  ,  n  ,  o  ,  p
       
 A 3X3 grid may be too easy, so 4X4 is probably best.
       
