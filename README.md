@@ -4,7 +4,7 @@ Through this project I sought to develop a desktop application and gain experien
 ![WelcomePage](https://user-images.githubusercontent.com/54633579/71023097-f0602600-20f9-11ea-97b0-ae21fd2e9b7e.png)
 *Figure 1: The opening page welcomes the user and summarises futoshiki.*
 
-### Idea Generation: 
+### Idea Generation
 Futoshiki is centred around the concept of a latin square: an n by n grid in which each of n symbols occurs once in each row and column. The following example uses letters A to D:  
 <p align="center">A . D . C . B<br>  
 C . A . B . D<br>  
@@ -19,13 +19,13 @@ A 3X3 grid may be too easy, so 4X4 is probably best.
       
 Potential Issues: Generating arrays automatically, so may have to design arrays manually.
                   
-### Log 1:
+### Log 1
 Much work was done on the user interface. I hardcoded the answer to the puzzle and added a submit button. The next step is to allow the user to increment up and down between 1 and 4 using the directional arrows. This is easily accomplished by changing from textboxes to combo-boxes.
       
-### Log 2:
+### Log 2
 I firstly changed the textboxes to comboboxes which allowed the design of an improved user interface. I then added additional windows. 10 windows seems a good amount. The next steps are to add 4 more quizzes and add inequality symbols.
       
-### Log 3:
+### Log 3
 The application now has 11 windows: a start window, which describes futoshiki, and 10 consecutive puzzles. A clickable button progresses the user from start page to the first puzzle by creating, and showing (.Show()), an object of the required WPF window; simultaneously, the command this.Close() causes the opening window to close. The cs file for each of the last 10 windows is similar: an intitialisation of the puzzle solution, a declaration of each combobox followed by intialisation by parsing user input, and an if statement that verifies that the user-input matches the correct answer in every combobox. The latter was efficiently achieved by concatenating the if statement of each combobox using the & operator.
 
       
@@ -34,16 +34,16 @@ Should the user not input the correct integer in every combox, the message-box "
 
 *Figure 2: Should the user submit a completed, incorrect solution, he/she is encouraged to keep trying.*
 
-### To improve:
+### To improve
 The major issue is that clicking the submit button whilst any of the comboxes are void causes the program to crash. This occurs because user_input is in an incorrect format as there wasn't any text to parse and convert to an integer. One possible solution is to add a 0-option to the comboxes which can't be seen. This would result in the user_input holding the value 0, rather than null. Another solution could involve an enveloping if statement that is satisfied if every combox is filled. More general improvements to the application include more aesthetically pleasing windows. Additionally, usability may be ameliorated by allowing the user to toggle left and right between comboxes with the left and right keyboard directional buttons. Currently, the user may type into a combobox by double clicking on it or by pushing the tab key. Once in a combobox the user may cycle through numbers using the horizontal or vertical directional arrows or by pushing a number key (only 1 - 4 are permitted).
 
-### Exception Handling:
+### Exception Handling
 The high-risk defect decribed above, of empty comboboxes leading to failure, was resolved through a method not previously suggested. A try-catch statement has been implemented which prevents System.FormatException from crashing the program. Instead, a message-box informs the user "You have not filled in all the boxes." This message may be dismissed, by pressing the enter key or by clicking OK, which allows the program to continue as before.
 ![ExceptionHandled](https://user-images.githubusercontent.com/54633579/71023664-205bf900-20fb-11ea-89a9-8f73686c34bb.png)
 
 *Figure 3: Should the user submit an incomplete solution, a try-catch statement handles an exception whilst generating a message-box.*
 
-## Solution:
+## Solution
 ![Page1](https://user-images.githubusercontent.com/54633579/71072283-10352f80-2176-11ea-818e-6018be833668.png)
 ![Page2](https://user-images.githubusercontent.com/54633579/71072310-217e3c00-2176-11ea-951e-7fd2576837fb.png)
 ![Page3](https://user-images.githubusercontent.com/54633579/71072327-2b07a400-2176-11ea-8bd3-367ad6235ef2.png)
