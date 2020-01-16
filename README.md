@@ -3,15 +3,11 @@ Description: The aim of this project is to create a desktop app using Windows Pr
 
 ### Idea 1: A Latin-Square type game:
 A latin square has n rows and n columns, and each symbol may occur only once in each.
-Latin Square example:
-      
-            A     D     C     B
-            
-            C     A     B     D
-            
-            B     C     D     A
-            
-            D     B     A     C     
+Latin Square example:  <br>
+<p>A     D     C     B<br>  
+C     A     B     D<br>  
+B     C     D     A<br>  
+D     B     A     C</p>     
             
  [Futoshiki](https://www.futoshiki.org), aka Unequal, is the inspiration for this idea.
       It uses inequality symbols to give the player enough info to deduce the solution.
