@@ -1,10 +1,12 @@
 # Futoshiki
-Through this project I sought to develop a desktop application and gain development experience. This is a Windows Presentation Foundation application.
+Through this project I sought to develop a desktop application and gain experience of the software development life cycle. This is a Windows Presentation Foundation application. Being a keen problem solver, I seized the opportunity to create my own version of a logic puzzle that I find enjoyable: futoshiki.
 
 ![WelcomePage](https://user-images.githubusercontent.com/54633579/71023097-f0602600-20f9-11ea-97b0-ae21fd2e9b7e.png)
 *Figure 1: The opening page welcomes the user and summarises futoshiki.*
 
-### Idea Generation: A Latin-Square type game:
+### Idea Generation: 
+
+A Latin-Square type game:
 A latin square has n rows and n columns, and each symbol may occur only once in each.
 Latin Square example:  
 <p align="center">A . D . C . B<br>  
