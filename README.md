@@ -5,10 +5,7 @@ Through this project I sought to develop a desktop application and gain experien
 *Figure 1: The opening page welcomes the user and summarises futoshiki.*
 
 ### Idea Generation: 
-
-A Latin-Square type game:
-A latin square has n rows and n columns, and each symbol may occur only once in each.
-Latin Square example:  
+Futoshiki is centred around the concept of a latin square: an n by n grid in which each of n symbols occurs once in each row and column. The following example uses letters A to D:  
 <p align="center">A . D . C . B<br>  
 C . A . B . D<br>  
 B . C . D . A<br>  
