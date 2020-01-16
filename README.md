@@ -4,10 +4,10 @@ Description: The aim of this project is to create a desktop application using Wi
 ### Idea Generation: A Latin-Square type game:
 A latin square has n rows and n columns, and each symbol may occur only once in each.
 Latin Square example:  
-<center>A     D     C     B<br>  
-C     A     B     D<br>  
-B     C     D     A<br>  
-D     B     A     C</center>     
+<p align="center">A <span style="color:blue">some *blue* text</span> D C B<br>  
+C A B D<br>  
+B C D A<br>  
+D B A C</p>     
             
  [Futoshiki](https://www.futoshiki.org), aka Unequal, is the inspiration for this idea.
       It uses inequality symbols to give the player enough info to deduce the solution.
