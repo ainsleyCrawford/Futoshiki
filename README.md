@@ -1,5 +1,5 @@
 # Futoshiki
-Description: The aim of this project is to create a desktop application using Windows Presentation Foundation (WPF).
+Through this project I sought to develop a desktop application and gain development experience. This is a Windows Presentation Foundation application.
 
 ![WelcomePage](https://user-images.githubusercontent.com/54633579/71023097-f0602600-20f9-11ea-97b0-ae21fd2e9b7e.png)
 *Figure 1: The opening page welcomes the user and summarises futoshiki.*
@@ -24,7 +24,7 @@ Potential Issues: Generating arrays automatically, so may have to design arrays 
 Much work was done on the user interface. I hardcoded the answer to the puzzle and added a submit button. The next step is to allow the user to increment up and down between 1 and 4 using the directional arrows. This is easily accomplished by changing from textboxes to combo-boxes.
       
 ### Log 2:
-I firstly changed the textboxes to comboboxes which allowed the design of an improved user interface. I then added additional windows. 10 windows seems a good amount. The next steps are to add 4 more quizes and add inequality symbols.
+I firstly changed the textboxes to comboboxes which allowed the design of an improved user interface. I then added additional windows. 10 windows seems a good amount. The next steps are to add 4 more quizzes and add inequality symbols.
       
 ### Log 3:
 The application now has 11 windows: a start window, which describes futoshiki, and 10 consecutive puzzles. A clickable button progresses the user from start page to the first puzzle by creating, and showing (.Show()), an object of the required WPF window; simultaneously, the command this.Close() causes the opening window to close. The cs file for each of the last 10 windows is similar: an intitialisation of the puzzle solution, a declaration of each combobox followed by intialisation by parsing user input, and an if statement that verifies that the user-input matches the correct answer in every combobox. The latter was efficiently achieved by concatenating the if statement of each combobox using the & operator.
