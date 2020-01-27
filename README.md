@@ -4,7 +4,7 @@ Through this project I sought to develop a desktop application and gain experien
 ![WelcomePage](https://user-images.githubusercontent.com/54633579/71023097-f0602600-20f9-11ea-97b0-ae21fd2e9b7e.png)  
 *Figure 1: The opening page welcomes the user and summarises futoshiki.*
 
-### Idea Generation
+### Ideation
 Futoshiki is centred around the concept of a Latin square—an n by n grid in which each of n symbols occurs once in every row and column. The following example uses letters A to D:  
 <p align="center">A . D . C . B<br>  
 C . A . B . D<br>  
