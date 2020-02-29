@@ -9,7 +9,7 @@
     <Grid x:Name="MainGrid">
         <Label Content="Welcome to Ainsley's Collection" HorizontalAlignment="Center" Margin="16,0,15.6,684.4" FontSize="55" FontStyle="Italic"/>
         <Label Content="of Futoshiki Challenges" HorizontalAlignment="Center" Margin="118,60,117.6,616.4" FontSize="55" FontStyle="Italic"/>
-        <RichTextBox HorizontalAlignment="Left" Height="564" Margin="50,160,0,0" VerticalAlignment="Top" Width="1000" FontSize="35" TextChanged="RichTextBox_TextChanged">
+        <RichTextBox HorizontalAlignment="Left" Height="564" Margin="50,160,0,0" VerticalAlignment="Top" Width="1000" FontSize="35">
             <FlowDocument>
                 <List MarkerStyle="LowerRoman" MarkerOffset="1">
                     <ListItem>
@@ -70,7 +70,7 @@
                 </List>
             </FlowDocument>
         </RichTextBox>
-        <RichTextBox HorizontalAlignment="Left" Height="400" Margin="1050,160,0,0" VerticalAlignment="Top" Width="430" TextChanged="RichTextBox_TextChanged" FontSize="30">
+        <RichTextBox x:Name="LatinSqBox" HorizontalAlignment="Left" Height="400" Margin="1050,160,0,0" VerticalAlignment="Top" Width="430" FontSize="30">
             <FlowDocument>
                 <Paragraph TextAlignment="Center">
                     <Run FontSize="35" Text="Latin square example:"/>
@@ -113,7 +113,7 @@
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <Button Content="Begin" HorizontalAlignment="Left" Margin="1125,625,0,0" VerticalAlignment="Top" Width="275" FontSize="40" Click="Button_Click"/>
+        <Button Content="Hajime!" HorizontalAlignment="Left" Margin="1125,625,0,0" VerticalAlignment="Top" Width="275" FontSize="40" Click="Button_Click" FontFamily="Nachlieli CLM BoldOblique"/>
 
     </Grid>
 </Window>

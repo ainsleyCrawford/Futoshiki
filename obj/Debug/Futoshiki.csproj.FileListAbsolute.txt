@@ -67,3 +67,37 @@ C:\Users\ainsl\Desktop\GitHub Portfolio\Futoshiki\obj\Debug\Futoshiki.Properties
 C:\Users\ainsl\Desktop\GitHub Portfolio\Futoshiki\obj\Debug\Futoshiki.csproj.GenerateResource.cache
 C:\Users\ainsl\Desktop\GitHub Portfolio\Futoshiki\obj\Debug\Futoshiki.exe
 C:\Users\ainsl\Desktop\GitHub Portfolio\Futoshiki\obj\Debug\Futoshiki.pdb
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\bin\Debug\Futoshiki.exe.config
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\bin\Debug\Futoshiki.exe
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\bin\Debug\Futoshiki.pdb
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Futoshiki.csprojAssemblyReference.cache
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Exercise1.g.cs
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Exercise2.g.cs
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Exercise3.g.cs
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Exercise4.g.cs
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Exercise5.g.cs
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Exercise6.g.cs
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Exercise7.g.cs
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Exercise8.g.cs
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Exercise9.g.cs
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\FinalExercise.g.cs
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\MainWindow.g.cs
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\App.g.cs
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Futoshiki_MarkupCompile.cache
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Futoshiki_MarkupCompile.lref
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Exercise1.baml
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Exercise2.baml
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Exercise3.baml
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Exercise4.baml
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Exercise5.baml
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Exercise6.baml
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Exercise7.baml
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Exercise8.baml
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Exercise9.baml
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\FinalExercise.baml
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\MainWindow.baml
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Futoshiki.g.resources
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Futoshiki.Properties.Resources.resources
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Futoshiki.csproj.GenerateResource.cache
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Futoshiki.exe
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\Futoshiki.pdb
