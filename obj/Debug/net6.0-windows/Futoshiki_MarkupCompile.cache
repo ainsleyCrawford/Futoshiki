@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\
+C:\Users\ainsl\Desktop\Portfolio\Futoshiki\obj\Debug\net6.0-windows\
 Futoshiki
 none
 false
-DEBUG;TRACE
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\ainsl\Desktop\Portfolio\Futoshiki\App.xaml
-112130809970
+11-782402958
 
-16-6284790
-13-1310406943
+14-1658643078
+194-2067936865
 Exercise1.xaml;Exercise2.xaml;Exercise3.xaml;Exercise4.xaml;Exercise5.xaml;Exercise6.xaml;Exercise7.xaml;Exercise8.xaml;Exercise9.xaml;FinalExercise.xaml;MainWindow.xaml;
 
-True
+False
 

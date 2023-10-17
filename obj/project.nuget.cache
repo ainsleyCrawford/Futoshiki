@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "B5aV1pF8GSDk/WAMkzvjonKiYym/nQDgf9fz9MG9kxikeC5mkDAq5dlqV5aDSm16FpFuDWsDzHNrnZl2jXINmw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ainsl\\Desktop\\Portfolio\\Futoshiki\\Futoshiki.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ainsl\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\ainsl\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
